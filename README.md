@@ -10,7 +10,7 @@ career varchar(20),
 address varchar(20),
 mobile varchar(20),
 constraint P_KEY_1 primary key(id)
-)
+)\n
 
 insert into app.profile values(1,'zhangxueliang','123123',true,'123123','123123','123123');
 insert into app.profile values(2,'wangerxiao','123123',true,'123123','123123','123123');
