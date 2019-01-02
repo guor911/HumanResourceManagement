@@ -10,14 +10,22 @@ career varchar(20),
 address varchar(20),
 mobile varchar(20),
 constraint P_KEY_1 primary key(id)
-)\n
+)  
 
-insert into app.profile values(1,'zhangxueliang','123123',true,'123123','123123','123123');
-insert into app.profile values(2,'wangerxiao','123123',true,'123123','123123','123123');
-insert into app.profile values(3,'zhude','123123',true,'123123','123123','123123');
-insert into app.profile values(4,'yuanbiao','123123',true,'123123','123123','123123');
-insert into app.profile values(5,'guofucheng','123123',true,'123123','123123','123123');
-insert into app.profile values(6,'liudehua','123123',true,'123123','123123','123123');
-insert into app.profile values(7,'jack','123123',true,'123123','123123','123123');
-insert into app.profile values(8,'lucy','123123',true,'123123','123123','123123');
+insert into app.profile values(1,'zhangxueliang','123123',true,'123123','123123','123123');  
+
+insert into app.profile values(2,'wangerxiao','123123',true,'123123','123123','123123');  
+
+insert into app.profile values(3,'zhude','123123',true,'123123','123123','123123');  
+
+insert into app.profile values(4,'yuanbiao','123123',true,'123123','123123','123123');  
+
+insert into app.profile values(5,'guofucheng','123123',true,'123123','123123','123123');  
+
+insert into app.profile values(6,'liudehua','123123',true,'123123','123123','123123');  
+
+insert into app.profile values(7,'jack','123123',true,'123123','123123','123123');  
+
+insert into app.profile values(8,'lucy','123123',true,'123123','123123','123123');  
+
 insert into app.profile values(9,'lily','123123',true,'123123','123123','123123');
